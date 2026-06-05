@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <script>
+        let message = "Are you sure ?";
+        let result = confirm(message);
+        if (result) {
+            alert("You pressed OK!");
+        } else {
+            alert("You pressed Cancel!");
+        }
+
+    </script>
+    <body>
+        <button onclick="confirm('Are you sure?')">Click me</button>
+    </body>
+</html>
